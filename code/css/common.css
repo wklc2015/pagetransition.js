@@ -1,0 +1,104 @@
+@charset "utf-8";
+/*
+ * ---------------------------------------------
+ * website:
+ * filename: common.css
+ * revision: 1.0
+ * createdate: 2015-04-10
+ * author: lc
+ * description: 公共样式
+ * ---------------------------------------------
+ */
+/***********************************************************************
+* reset style
+*/
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-touch-callout: none;
+}
+
+html {
+	font: 10px 'Microsoft Yahei';
+	-webkit-text-size-adjust: none;
+	background-color: #333;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:active,
+a:hover {
+	outline: none;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+img { border: none; }
+
+ul,
+ol { list-style: none; }
+
+/***********************************************************************
+* common class
+*/
+.fb { font-weight: bold; }
+
+.bc { margin: 0 auto; }
+
+.tc { text-align: center; }
+
+.tl { text-align: left; }
+
+.tr { text-align: right; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+.fn { float: none; }
+
+.cb { clear: both; }
+
+.pr { position: relative; }
+
+.pa { position: absolute; }
+
+.pf { position: fixed; }
+
+.oHidden { overflow: hidden; }
+
+.vHidden { visibility: hidden; }
+
+.none { display: none !important; }
+
+.block { display: block !important; }
+
+.cl:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+
+
+
+
+
